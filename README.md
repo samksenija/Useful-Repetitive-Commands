@@ -8,7 +8,7 @@ Ctrl+Shift+P and enter Git: Clone (add repository URL) + Fetch/Pull
 <br/>
 <br/>
 ## Snowflake
-### .env Structure for VS code
+### .env Structure for VS Code when Connecting to the Account 
 `user=user`<br/>
 `password=password`<br/>
 `account=account`<br/>
