@@ -40,3 +40,4 @@ conn = snowflake.connector.connect(
 <br/>
 `dbt init <project_name> (Initialize project in VS code, use underscore)`
 <br/>
+`dbt run`
