@@ -40,4 +40,6 @@ conn = snowflake.connector.connect(
 <br/>
 `dbt init <project_name> (Initialize project in VS code, use underscore)`
 <br/>
-`dbt run`
+`dbt run` (E2E)
+<br/>
+`dbt show --select stg_transactions__pdf_transaction_view` (Show query results from model run)
