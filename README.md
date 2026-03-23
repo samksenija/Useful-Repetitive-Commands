@@ -35,7 +35,7 @@ conn = snowflake.connector.connect(
     schema=os.getenv("schema")
 )
 ```
-## dbt in VS code
+## dbt + VS code extension
 `pip install dbt-core dbt-Snowflake` 
 <br/>
 `dbt init <project_name> (Initialize project in VS code, use underscore)`
@@ -43,3 +43,5 @@ conn = snowflake.connector.connect(
 `dbt run` (E2E)
 <br/>
 `dbt show --select stg_transactions__pdf_transaction_view` (Show query results from model run)
+<br/>
+`dbt clean`
