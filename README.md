@@ -45,3 +45,8 @@ conn = snowflake.connector.connect(
 `dbt show --select stg_transactions__pdf_transaction_view` (Show query results from model run)
 <br/>
 `dbt clean`
+## Django
+`.env` needs to be in same folder as `manage.py`
+<br/>
+<br/>
+`python manage.py runserver`
