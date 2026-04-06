@@ -7,6 +7,9 @@ List of useful &amp; repetitive commands & file structures in various different 
 Ctrl+Shift+P and enter Git: Clone (add repository URL) + Fetch/Pull
 <br/>
 <br/>
+git checkout -b new-branch-name existing-branch-name
+<br/>
+<br/>
 ## Python - Snowflake
 ### .env Structure for VS Code when Connecting to the Account 
 ```
