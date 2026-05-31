@@ -53,3 +53,12 @@ conn = snowflake.connector.connect(
 <br/>
 <br/>
 `python manage.py runserver`
+
+## MySQL
+Method 2: Windows Background Services
+<br/>
+<br/>
+If the menu options inside Workbench are grayed out or throw a connection failure error, the local Windows background service is turned off.
+1. Press Win + R, type services.msc, and hit Enter.
+2. Scroll down to find MySQL (usually labeled MySQL80 or MySQL90).
+3. Right-click the service and select Start.
