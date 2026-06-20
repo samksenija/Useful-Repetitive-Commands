@@ -65,6 +65,7 @@ Migrations:
 <br/>
 `python manage.py makemigrations`
 <br/>
+<br/>
 `python manage.py migrate`
 ## MySQL
 Method 2: Windows Background Services
