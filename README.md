@@ -59,6 +59,13 @@ conn = snowflake.connector.connect(
 <br/>
 <br/>
 `python manage.py startapp members` (Create the app after navigating to project folder)
+<br/>
+<br/>
+Migrations:
+<br/>
+`python manage.py makemigrations`
+<br/>
+`python manage.py migrate`
 ## MySQL
 Method 2: Windows Background Services
 <br/>
