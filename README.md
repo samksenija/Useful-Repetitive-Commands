@@ -53,7 +53,12 @@ conn = snowflake.connector.connect(
 <br/>
 <br/>
 `python manage.py runserver`
-
+<br/>
+<br/>
+`django-admin startproject my_tennis_club` (Create project)
+<br/>
+<br/>
+`python manage.py startapp members` (Create the app after navigating to project folder)
 ## MySQL
 Method 2: Windows Background Services
 <br/>
