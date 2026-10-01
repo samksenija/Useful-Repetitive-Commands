@@ -10,6 +10,13 @@ Ctrl+Shift+P and enter Git: Clone (add repository URL) + Fetch/Pull
 `git checkout -b new-branch-name existing-branch-name`
 <br/>
 <br/>
+To configure username, mail:
+<br/>
+`git config --global user.name "Your Name"`
+<br/>
+`git config --global user.email "your.email@example.com"`
+<br/>
+<br/>
 ## Python - Snowflake
 ### .env Structure for VS Code when Connecting to the Account 
 ```
